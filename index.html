@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>APP-Meteo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="app-title">
+            <p>Meteo</p>
+        </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="meteo">
+      <div class="app-title2">
+          <p>Che tempo fa?</p>
+      </div>
+      <div class="notification2">
+        <br>
+        <h3>Immetere la località</h3>
+        <br>
+        <input type="text" id="weath" autocomplete="off" placeholder="città/paese"> </input>
+        <br><br>
+        <button id="prova"><img src="icons/search.png"> </button>
+      </div>
+    </div>
+    <br>
+    <div class="contacts">
+      <a href="https://www.facebook.com//andrea.bortolotti.90"> <img src="icons/facebook.png"></a>
+      <a href="https://www.instagram.com//burtuli87/"><img src="icons/logo_insta.png"></a>
+      <a href="mailto://bortolottiandrea1@gmail.com"><img src="icons/mail.png"></a>
+    </div>
+
+    <script src="main.js"></script>
+ </body>
+</html>
